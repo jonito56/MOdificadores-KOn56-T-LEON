@@ -151,21 +151,34 @@ TDS:Loadout("Hunter", "Soldier", "Accelerator", "Sniper", "Harvester")
 
 TDS:Place("Harvester", -7.76190, 95, -0.41696) -- 7
 TDS:Place("Harvester", -7.76190, 95, -0.41696) -- 7
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 TDS:Upgrade(22)
-TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
-TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
+TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(24)
+TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
+TDS:Upgrade(25)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
 
 TDS:SetOption(17, "Track", "Red")
 
