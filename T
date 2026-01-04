@@ -31,16 +31,16 @@ TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
-TDS:Upgrade(8)
-TDS:Upgrade(8)
-TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(9)
 TDS:Upgrade(9)
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(10)
+TDS:Upgrade(10)
 TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 2
-TDS:Upgrade(10)
-TDS:Upgrade(10)
-TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(12)
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
@@ -49,11 +49,9 @@ TDS:Upgrade(5)
 TDS:Upgrade(6)
 TDS:Upgrade(7)
 TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
 TDS:Place("Mercenary Base", -7.76190, 95, -0.41696) -- 1
-TDS:Upgrade(12)
-TDS:Upgrade(12)
-TDS:Upgrade(12)
-TDS:Place("Mercenary Base", 14.15599, 95, 9.38280) -- 4
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
@@ -61,26 +59,30 @@ TDS:Place("Mercenary Base", 14.15599, 95, 9.38280) -- 4
 TDS:Upgrade(14)
 TDS:Upgrade(14)
 TDS:Upgrade(14)
+TDS:Place("Mercenary Base", 14.15599, 95, 9.38280) -- 4
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
 
 TDS:Loadout("Mercenary Base", "DJ Booth", "Hacker", "Firework Technician", "Warlock")
 
 TDS:Place("Firework Technician", -13.76295, 95, -8.90935) -- 4
-TDS:Upgrade(15)
+TDS:Upgrade(16)
 TDS:Place("DJ Booth", -13.76295, 95, -8.90935) -- 4
-TDS:Upgrade(16)
-TDS:Upgrade(16)
-TDS:Upgrade(16)
-
-TDS:SetOption(16, "Track", "Green")
-TDS:Ability(16, "Drop The Beat", {Nill} , true)
-
-TDS:Upgrade(11)
-TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(17)
 TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+TDS:SetOption(17, "Track", "Green")
+TDS:Ability(17, "Drop The Beat", {Nill} , true)
+
+TDS:Upgrade(12)
 TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(18)
 TDS:Upgrade(18)
+TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
+TDS:Upgrade(19)
+TDS:Upgrade(19)
 
 TDS:AutoChain(11, 17, 18)
 
@@ -91,65 +93,67 @@ TDS:Upgrade(4)
 TDS:Upgrade(5)
 TDS:Upgrade(6)
 TDS:Upgrade(7)
-TDS:Upgrade(12)
-TDS:Upgrade(12)
-TDS:Upgrade(12)
-TDS:Upgrade(13)
-TDS:Upgrade(13)
-TDS:Upgrade(13)
-
-TDS:SetOption(13, "Unit 1", "Field Medic")
-
-TDS:Upgrade(14)
-TDS:Upgrade(14)
-TDS:Upgrade(14)
+TDS:Upgrade(8)
 TDS:Upgrade(9)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(16)
-TDS:Upgrade(16)
-TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
-TDS:Upgrade(8)
-TDS:Upgrade(8)
-TDS:Upgrade(8)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
 
-TDS:Ability(8, "Hologram Tower", {
-    towerToClone = 13,
+TDS:SetOption(14, "Unit 1", "Field Medic")
+
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+TDS:Upgrade(24)
+
+TDS:Ability(11, "Hologram Tower", {
+    towerToClone = 20,
     towerPosition = {
         Vector3.new(-20.03326, 95, -13.49332),
         Vector3.new(-4.17581, 95, -3.15300),
     }
 }, true)
 
-TDS:Ability(23, "Hologram Tower", {
-    towerToClone = 18,
+TDS:Ability(24, "Hologram Tower", {
+    towerToClone = 21,
     towerPosition = {
         Vector3.new(-20.03326, 95, -13.49332),
         Vector3.new(-4.17581, 95, -3.15300),
@@ -159,31 +163,31 @@ TDS:Ability(23, "Hologram Tower", {
 TDS:Loadout("Hunter", "Soldier", "Accelerator", "Sniper", "Harvester")
 
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
-TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
-TDS:Upgrade(24)
-TDS:Upgrade(24)
-TDS:Upgrade(24)
-TDS:Upgrade(24)
-TDS:Upgrade(24)
 TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(26)
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
+TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(28)
-TDS:Upgrade(28)
-TDS:Upgrade(28)
-TDS:Upgrade(28)
+TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(29)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
+TDS:Upgrade(28)
 TDS:Upgrade(29)
 TDS:Upgrade(29)
 TDS:Upgrade(29)
@@ -191,20 +195,20 @@ TDS:Upgrade(29)
 
 TDS:SetOption(16, "Track", "Red")
 
-TDS:SetOption(12, "Unit 1", "Riot Guard")
-TDS:SetOption(12, "Unit 2", "Riot Guard")
-TDS:SetOption(12, "Unit 3", "Riot Guard")
 TDS:SetOption(13, "Unit 1", "Riot Guard")
 TDS:SetOption(13, "Unit 2", "Riot Guard")
 TDS:SetOption(13, "Unit 3", "Riot Guard")
-TDS:SetOption(14, "Unit 1", "Field Medic")
+TDS:SetOption(14, "Unit 1", "Riot Guard")
 TDS:SetOption(14, "Unit 2", "Riot Guard")
-TDS:SetOption(14, "Unit 3", "Rifleman")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+TDS:SetOption(15, "Unit 1", "Field Medic")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Rifleman")
 
-TDS:Ability(12, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 100}, true)
 TDS:Ability(13, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 100}, true)
 TDS:Ability(14, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 100}, true)
+TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 100}, true)
 
-TDS:Ability(11, "Support Caravan", {Nill} , true)
-TDS:Ability(17, "Support Caravan", {Nill} , true)
+TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(18, "Support Caravan", {Nill} , true)
+TDS:Ability(19, "Support Caravan", {Nill} , true)
