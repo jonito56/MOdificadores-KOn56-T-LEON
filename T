@@ -5,6 +5,7 @@ local TDS =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("Warlock", "Commander", "Scout", "Mercenary Base", "Hacker")
+TDS:autoskip(true)
 
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Place("Scout", -24.46096, 95, -6.75553) -- 1
@@ -56,7 +57,7 @@ TDS:Upgrade(12)
 
 TDS:Loadout("Mercenary Base", "DJ Booth", "Hacker", "Firework Technician", "Warlock")
 
-TDS:Place("Warlock", -20.03326, 2.23392, -13.49332) -- 3
+TDS:Place("Warlock", -20.03326, 95, -13.49332) -- 3
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 
@@ -104,6 +105,9 @@ TDS:Upgrade(9)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
 TDS:Upgrade(18)
 TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
 TDS:Upgrade(19)
 TDS:Upgrade(19)
@@ -134,13 +138,16 @@ TDS:Upgrade(21)
 TDS:Ability(8, "Hologram Tower", {
     towerToClone = 13,
     towerPosition = {
-        Vector3.new(-18.45543, 95, -12.24895),
+        Vector3.new(-20.03326, 95, -13.49332),
+        Vector3.new(-4.17581, 95, -3.15300),
     }
 }, true)
+
 TDS:Ability(21, "Hologram Tower", {
     towerToClone = 18,
     towerPosition = {
-        Vector3.new(-18.45543, 95, -12.24895),
+        Vector3.new(-20.03326, 95, -13.49332),
+        Vector3.new(-4.17581, 95, -3.15300),
     }
 }, true)
 
@@ -199,16 +206,3 @@ TDS:Ability(16, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist 
 TDS:Ability(9, "Support Caravan", {Nill} , true)
 TDS:Ability(10, "Support Caravan", {Nill} , true)
 TDS:Ability(11, "Support Caravan", {Nill} , true)
-
-TDS:Ability(8, "Hologram Tower", {
-    towerToClone = 13,
-    towerPosition = {
-        Vector3.new(-4.17581, 95, -3.15300),
-    }
-}, true)
-TDS:Ability(21, "Hologram Tower", {
-    towerToClone = 18,
-    towerPosition = {
-        Vector3.new(-4.17581, 95, -3.15300),
-    }
-}, true)
