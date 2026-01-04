@@ -48,7 +48,6 @@ TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 2
 TDS:Upgrade(11)
 TDS:Upgrade(11)
 TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
-TDS:Upgrade(12)
 TDS:Upgrade(1)
 TDS:Upgrade(2)
 TDS:Upgrade(3)
