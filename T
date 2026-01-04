@@ -94,6 +94,7 @@ TDS:Upgrade(4)
 TDS:Upgrade(5)
 TDS:Upgrade(6)
 TDS:Upgrade(7)
+TDS:Upgrade(13)
 TDS:Upgrade(12)
 TDS:Upgrade(12)
 TDS:Upgrade(12)
@@ -107,20 +108,15 @@ TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(9)
-TDS:Upgrade(13)
-TDS:Upgrade(13)
 TDS:Place("Warlock", -18.45543, 95, -12.24895) -- 6
-TDS:Upgrade(17)
-TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(18)
-TDS:Upgrade(17)
-TDS:Upgrade(17)
-TDS:Upgrade(17)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
 TDS:Upgrade(19)
 TDS:Upgrade(19)
@@ -149,7 +145,7 @@ TDS:Ability(8, "Hologram Tower", {
     }
 }, true)
 TDS:Ability(20, "Hologram Tower", {
-    towerToClone = 17,
+    towerToClone = 18,
     towerPosition = {
         Vector3.new(-18.45543, 95, -12.24895),
     }
@@ -178,6 +174,8 @@ TDS:Upgrade(23)
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(24)
 
+TDS:SetOption(17, "Track", "Red")
+
 TDS:SetOption(12, "Unit 1", "Riot Guard", 40)
 TDS:SetOption(12, "Unit 2", "Riot Guard", 40)
 TDS:SetOption(12, "Unit 3", "Riot Guard", 40)
@@ -203,7 +201,7 @@ TDS:Ability(8, "Hologram Tower", {
     }
 }, true)
 TDS:Ability(20, "Hologram Tower", {
-    towerToClone = 17,
+    towerToClone = 18,
     towerPosition = {
         Vector3.new(-4.17581, 95, -3.15300),
     }
