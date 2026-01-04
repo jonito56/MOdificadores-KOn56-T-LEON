@@ -109,7 +109,7 @@ TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(16)
 TDS:Upgrade(9)
-TDS:Place("Warlock", -18.45543, 95, -12.24895) -- 6
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
 TDS:Upgrade(18)
 TDS:Upgrade(18)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
