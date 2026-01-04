@@ -84,7 +84,7 @@ TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(19)
 TDS:Upgrade(19)
 
-TDS:AutoChain(11, 17, 18)
+TDS:AutoChain(12, 18, 19)
 
 TDS:Upgrade(1)
 TDS:Upgrade(2)
@@ -193,7 +193,7 @@ TDS:Upgrade(29)
 TDS:Upgrade(29)
 TDS:Upgrade(29)
 
-TDS:SetOption(16, "Track", "Red")
+TDS:SetOption(17, "Track", "Red")
 
 TDS:SetOption(13, "Unit 1", "Riot Guard")
 TDS:SetOption(13, "Unit 2", "Riot Guard")
