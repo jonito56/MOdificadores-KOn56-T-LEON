@@ -111,11 +111,11 @@ TDS:Upgrade(19)
 TDS:Upgrade(19)
 TDS:Upgrade(19)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
-TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
 TDS:Upgrade(9)
 TDS:Upgrade(10)
 TDS:Upgrade(10)
@@ -125,11 +125,11 @@ TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 TDS:Upgrade(8)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
 
 TDS:Ability(8, "Hologram Tower", {
     towerToClone = 13,
@@ -137,7 +137,7 @@ TDS:Ability(8, "Hologram Tower", {
         Vector3.new(-18.45543, 95, -12.24895),
     }
 }, true)
-TDS:Ability(20, "Hologram Tower", {
+TDS:Ability(21, "Hologram Tower", {
     towerToClone = 18,
     towerPosition = {
         Vector3.new(-18.45543, 95, -12.24895),
@@ -193,7 +193,7 @@ TDS:Ability(8, "Hologram Tower", {
         Vector3.new(-4.17581, 95, -3.15300),
     }
 }, true)
-TDS:Ability(20, "Hologram Tower", {
+TDS:Ability(21, "Hologram Tower", {
     towerToClone = 18,
     towerPosition = {
         Vector3.new(-4.17581, 95, -3.15300),
