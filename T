@@ -168,6 +168,13 @@ TDS:Ability(24, "Hologram Tower", {
     }
 }, true)
 
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
 TDS:Loadout("Hunter", "Soldier", "Accelerator", "Sniper", "Harvester")
 
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
