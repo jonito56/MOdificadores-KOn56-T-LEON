@@ -74,7 +74,7 @@ TDS:Upgrade(15)
 TDS:Upgrade(15)
 TDS:Upgrade(15)
 
-TDS:Loadout("Warlock", "DJ Booth", "Paintballer", "Firework Technician", "Shotgunner")
+TDS:Loadout("Warlock", "DJ Booth", "Paintballer", "Firework Technician", "Commander")
 
 TDS:Place("Firework Technician", -13.76295, 95, -8.90935) -- 4
 TDS:Upgrade(16)
