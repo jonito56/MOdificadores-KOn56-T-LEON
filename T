@@ -4,7 +4,7 @@ _G.AutoStrat = true
 local TDS =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
-TDS:Loadout("Firework Technician", "Scout", "Commander", "Mercenary Base", "Hacker")
+TDS:Loadout("Warlock", "Scout", "Commander", "Mercenary Base", "Hacker")
 TDS:Mode("Frost")
 TDS:GameInfo("Simplicity", {
     HiddenEnemies = true,
@@ -50,7 +50,7 @@ TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 2
 TDS:Upgrade(11)
 TDS:Upgrade(11)
 
-TDS:Loadout("Mercenary Base", "DJ Booth", "Warlock", "Firework Technician", "Commander")
+TDS:Loadout("Warlock", "DJ Booth", "Mercenary Base", "Firework Technician", "Commander")
 
 TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(1)
