@@ -151,6 +151,16 @@ TDS:Place("Warlock", -20.03326, 95, -13.49332) -- 6
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 
+TDS:SetOption(13, "Unit 1", "Riot Guard")
+TDS:SetOption(13, "Unit 2", "Riot Guard")
+TDS:SetOption(13, "Unit 3", "Riot Guard")
+TDS:SetOption(14, "Unit 1", "Riot Guard")
+TDS:SetOption(14, "Unit 2", "Riot Guard")
+TDS:SetOption(14, "Unit 3", "Riot Guard")
+TDS:SetOption(15, "Unit 1", "Field Medic")
+TDS:SetOption(15, "Unit 2", "Riot Guard")
+TDS:SetOption(15, "Unit 3", "Rifleman")
+
 TDS:SetOption(17, "Track", "Red")
 
 TDS:Upgrade(22)
@@ -211,16 +221,6 @@ TDS:Ability(27, "Hologram Tower", {
 TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(18, "Support Caravan", {Nill} , true)
 TDS:Ability(19, "Support Caravan", {Nill} , true)
-
-TDS:SetOption(13, "Unit 1", "Riot Guard")
-TDS:SetOption(13, "Unit 2", "Riot Guard")
-TDS:SetOption(13, "Unit 3", "Riot Guard")
-TDS:SetOption(14, "Unit 1", "Riot Guard")
-TDS:SetOption(14, "Unit 2", "Riot Guard")
-TDS:SetOption(14, "Unit 3", "Riot Guard")
-TDS:SetOption(15, "Unit 1", "Field Medic")
-TDS:SetOption(15, "Unit 2", "Riot Guard")
-TDS:SetOption(15, "Unit 3", "Rifleman")
 
 TDS:Place("Accelerator", -7.75928, 95, 4.85472) -- 7
 TDS:Upgrade(28)
