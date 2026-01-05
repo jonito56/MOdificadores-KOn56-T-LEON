@@ -146,30 +146,36 @@ TDS:Upgrade(21)
 TDS:Upgrade(21)
 TDS:Upgrade(21)
 TDS:Upgrade(21)
-TDS:Place("Warlock", -21.30819, 95, -18.68460) -- 6
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
+TDS:Upgrade(16)
+TDS:Place("Warlock", -20.03326, 95, -13.49332) -- 6
 TDS:Upgrade(22)
 TDS:Upgrade(22)
 
 TDS:SetOption(17, "Track", "Red")
 
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
 TDS:Upgrade(17)
 TDS:Upgrade(17)
-TDS:Upgrade(16)
 TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
 TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Upgrade(23)
 TDS:Upgrade(23)
-TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
+TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
-TDS:Upgrade(24, 2)
+TDS:Upgrade(24)
+TDS:Place("Hacker", -7.03175, 95, 5.68011) -- 7
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25, 2)
 
 TDS:Ability(11, "Hologram Tower", {
     towerToClone = 20,
@@ -195,8 +201,6 @@ TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(18, "Support Caravan", {Nill} , true)
 TDS:Ability(19, "Support Caravan", {Nill} , true)
 
-TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
-TDS:Upgrade(25)
 TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
 TDS:Upgrade(26)
 TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
