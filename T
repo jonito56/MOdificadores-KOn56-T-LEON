@@ -244,3 +244,7 @@ TDS:SetOption(15, "Unit 3", "Rifleman")
 
 TDS:Ability(13, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
 TDS:Ability(14, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
+
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
