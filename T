@@ -5,6 +5,16 @@ local TDS =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("", "Scout", "Commander", "Mercenary Base", "Hacker")
+TDS:Mode("Frost")
+TDS:GameInfo("Simplicity", {
+    HiddenEnemies = true,
+    Glass = true,
+    Committed = true,
+    Limitation = true,
+    ExplodingEnemies = true
+})
+
+TDS:Ready()
 
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Place("Scout", -24.46096, 95, -6.75553) -- 1
