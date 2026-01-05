@@ -5,16 +5,6 @@ local TDS =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("", "Scout", "Commander", "Mercenary Base", "Hacker")
-TDS:Mode("Frost")
-TDS:GameInfo("Simplicity", {
-    HiddenEnemies = true,
-    Glass = true,
-    Committed = true,
-    Limitation = true,
-    ExplodingEnemies = true
-})
-
-TDS:Ready()
 
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Place("Scout", -24.46096, 95, -6.75553) -- 1
@@ -170,12 +160,27 @@ TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
 TDS:Upgrade(24)
+TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Upgrade(25)
+TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(26)
+TDS:Upgrade(12)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
 TDS:Place("Hacker", -7.03175, 95, 5.68011) -- 7
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25, 2)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
+TDS:Upgrade(27)
 
 TDS:Ability(11, "Hologram Tower", {
     towerToClone = 20,
@@ -185,7 +190,7 @@ TDS:Ability(11, "Hologram Tower", {
     }
 }, true)
 
-TDS:Ability(24, "Hologram Tower", {
+TDS:Ability(27, "Hologram Tower", {
     towerToClone = 21,
     towerPosition = {
         Vector3.new(-4.17581, 95, -3.15300),
@@ -193,34 +198,14 @@ TDS:Ability(24, "Hologram Tower", {
     }
 }, true)
 
-TDS:Upgrade(12)
-TDS:Upgrade(18)
-TDS:Upgrade(19)
-
 TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(18, "Support Caravan", {Nill} , true)
 TDS:Ability(19, "Support Caravan", {Nill} , true)
 
 TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
-TDS:Upgrade(26)
-TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
-TDS:Upgrade(27)
-TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
 TDS:Upgrade(28)
 TDS:Place("Accelerator", -7.03175, 95, 5.68011) -- 7
 TDS:Upgrade(29)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(25)
-TDS:Upgrade(26)
-TDS:Upgrade(26)
-TDS:Upgrade(26)
-TDS:Upgrade(26)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
-TDS:Upgrade(27)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
 TDS:Upgrade(28)
