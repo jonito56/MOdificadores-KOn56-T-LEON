@@ -125,35 +125,39 @@ TDS:Upgrade(15)
 TDS:Ability(14, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
 TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 120}, true)
 
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Upgrade(20)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Upgrade(21)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(22)
-TDS:Upgrade(11)
-TDS:Upgrade(11)
-TDS:Upgrade(11)
-TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
-TDS:Upgrade(23)
 TDS:Upgrade(17)
 TDS:Upgrade(17)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+
+TDS:SetOption(17, "Track", "Red")
+
+TDS:Upgrade(22)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Warlock", -11.66129, 95, -3.11412) -- 6
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
+TDS:Upgrade(23)
 TDS:Place("Hacker", -10.69892, 95, -9.23184) -- 2
 TDS:Upgrade(24)
 TDS:Upgrade(24)
@@ -195,8 +199,6 @@ TDS:Upgrade(27)
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
 TDS:Upgrade(28)
 TDS:Place("Accelerator", -7.76190, 95, -0.41696) -- 7
-
-TDS:SetOption(17, "Track", "Red")
 
 TDS:Ability(12, "Support Caravan", {Nill} , true)
 TDS:Ability(18, "Support Caravan", {Nill} , true)
@@ -242,4 +244,3 @@ TDS:SetOption(15, "Unit 3", "Rifleman")
 
 TDS:Ability(13, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
 TDS:Ability(14, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
-TDS:Ability(15, "Air-Drop", {pathName = 1, directionCFrame = CFrame.new(), dist = 75}, true)
