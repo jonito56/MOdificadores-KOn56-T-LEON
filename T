@@ -16,7 +16,7 @@ TDS:GameInfo("Simplicity", {
 
 TDS:Ready()
 
-TDS:GetWave(28)
+TDS:GetWave(15)
 
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Place("Scout", -24.46096, 95, -6.75553) -- 1
