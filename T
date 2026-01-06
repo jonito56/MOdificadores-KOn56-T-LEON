@@ -39,7 +39,7 @@ TDS:Upgrade(6)
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(7)
 TDS:Upgrade(7)
-TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
+TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(8)
 TDS:Upgrade(8)
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
@@ -48,7 +48,7 @@ TDS:Upgrade(9)
 TDS:Place("Scout", -13.76295, 95, -8.90935) -- 1
 TDS:Upgrade(10)
 TDS:Upgrade(10)
-TDS:Place("Hacker", -13.76295, 95, -8.90935) -- 2
+TDS:Place("Scout", -13.76295, 95, -8.90935) -- 2
 TDS:Upgrade(11)
 TDS:Upgrade(11)
 TDS:Place("Commander", -13.76295, 95, -8.90935) -- 1
@@ -59,9 +59,9 @@ TDS:Upgrade(4)
 TDS:Upgrade(5)
 TDS:Upgrade(6)
 TDS:Upgrade(7)
-TDS:Upgrade(8)
 TDS:Upgrade(9)
 TDS:Upgrade(10)
+TDS:Upgrade(11)
 TDS:Upgrade(1)
 TDS:Place("Mercenary Base", -7.76190, 95, -0.41696) -- 1
 TDS:Upgrade(13)
@@ -105,9 +105,9 @@ TDS:Upgrade(4)
 TDS:Upgrade(5)
 TDS:Upgrade(6)
 TDS:Upgrade(7)
-TDS:Upgrade(8)
 TDS:Upgrade(9)
 TDS:Upgrade(10)
+TDS:Upgrade(11)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
 TDS:Upgrade(13)
@@ -136,9 +136,9 @@ TDS:Upgrade(20)
 TDS:Upgrade(20)
 TDS:Upgrade(20)
 TDS:Upgrade(20)
-TDS:Upgrade(11)
-TDS:Upgrade(11)
-TDS:Upgrade(11)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
 TDS:Upgrade(12)
 TDS:Upgrade(18)
 TDS:Upgrade(19)
@@ -204,7 +204,7 @@ TDS:Upgrade(27)
 TDS:Upgrade(27)
 TDS:Upgrade(27)
 
-TDS:Ability(11, "Hologram Tower", {
+TDS:Ability(8, "Hologram Tower", {
     towerToClone = 20,
     towerPosition = {
         Vector3.new(-20.03326, 95, -13.49332),
